@@ -1,0 +1,250 @@
+html, body, div, span, object, iframe, h1, h2,
+h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn,
+em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd,
+ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption,
+figure, footer, header, menu, nav, section, summary, time, mark,
+audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    vertical-align: baseline;
+    background: transparent;
+    outline-style: none; /*FF*/
+}
+
+body {
+    line-height: 1;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    bblr: expression(this.onFocus=this.blur()); /*IE*/
+    outline-style: none; /*FF*/
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+/*css为clearfix，清除浮动*/
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select,
+input {
+    vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*禁止手动修改大小*/
+textarea {
+    resize: none;
+}
+
+/*去掉图片底部默认空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*合并外连线*/
+table {
+    /*表格的单元格边框默认是不会重合的，这个属性可以让表格的边框重合在一起，看起来更加细一些*/
+    border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*公共类*/
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.hide {
+    display: none;
+}
+
+.col-red {
+    color: #bc2e2e;
+!important;
+}
+
+header {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 55px;
+    position: relative;
+    z-index: 3;
+}
+
+header .logo {
+    width: 140px;
+    height: 100%;
+    background: url("../images/panda/logo.png") no-repeat left;
+    line-height: 55px;
+    float: left;
+}
+
+.nav {
+    width: 1000px;
+    height: 55px;
+    position: relative;
+}
+
+header .logo h1 {
+    text-indent: -9999em;
+}
+
+header .mid-bar {
+    width: 772px;
+}
+
+.mid-bar a, .game-list, .right-bar {
+    text-align: center;
+    cursor: pointer;
+}
+
+.mid-bar a:hover, .game-list:hover, .right-bar:hover {
+    border-bottom: 3px solid #bc2e2e;
+    background: linear-gradient(#F5F5F5, #FFFFFF);
+}
+
+.mid-bar a {
+    float: right;
+    width: 72px;
+    height: 52px;
+    line-height: 52px;
+}
+
+.game-list {
+    width: 123px;
+    height: 52px;
+    line-height: 52px;
+    right: 100px;
+    background: url("../images/panda/triangle.png") no-repeat 105px;
+    margin-right: 10px;
+}
+
+.game-list .data-list{
+    position: absolute;
+    top: 55px;
+    left: -769px;
+    display: none;
+}
+.right-bar {
+    width: 100px;
+    height: 52px;
+    line-height: 52px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.right-bar .gogogo {
+    top: -52px;
+    transition: all 2s;
+}
+.right-bar .gogogo.active{
+    top: 0px;
+}
+
+
+
+
+

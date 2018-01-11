@@ -1,0 +1,711 @@
+
+/*首页开始*/
+
+body {
+    cursor: url('../../pages/panda/panda32.ico'),
+    default
+}
+.pagepic{
+    background: url("../../images/panda/home.jpg") center center no-repeat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.page{
+    position: relative;
+    height: 900px;
+    left: -300px;
+}
+.miku{
+    width: 1308px;
+    height: 1426px;
+    background: url("../../images/panda/miku.png");
+}
+.switch{
+    width: 54px;
+    height: 52px;
+    background: url("../../images/panda/switch.png");
+    position: absolute;
+    top: 65px;
+    right: -430px;
+    cursor: pointer;
+}
+.minislogan{
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: 45px;
+    top: 20px;
+}
+.slogan{
+    position: absolute;
+    right: -400px;
+    top: 100px;
+}
+.slogan .slogan-logo{
+
+    width: 760px;
+    height: 300px;
+    background: url("../../images/panda/slogan-logo.png") no-repeat;
+}
+.slogan .play{
+    width: 141px;
+    height: 113px;
+    float: left;
+    margin-top: -15px;
+    margin-left: 176px;
+    background: url("../../images/panda/play.png") no-repeat;
+}
+.slogan .preplay{
+    width: 381px;
+    height: 127px;
+    float: right;
+    cursor: pointer;
+    margin-top: -28px;
+    margin-right: 62px;
+    background: url("../../images/panda/preplay.png") no-repeat;
+}
+.news{
+    position: absolute;
+    top: 502px;
+    right: -338px;
+    width: 540px;
+    height: 400px;
+}
+.news .banner{
+    width: 540px;
+    overflow: hidden;
+}
+.news .banner ul{
+    width: 1080px;
+    height: 180px;
+    transition: all 2s;
+}
+.news .banner li{
+    width: 540px;
+    height: 180px;
+    float: left;
+}
+.news .newsbox{
+    width: 540px;
+    height: 220px;
+    background-color: #fff;
+}
+.news .news-tab{
+    width: 457px;
+    height: 52px;
+    margin: 0 auto;
+    border-bottom: 1px solid #bceded;
+    padding-left: 15px;
+}
+.news .news-tab a{
+    display: block;
+    float: left;
+    position: relative;
+    width: 64px;
+    height: 29px;
+    line-height: 29px;
+    font-size: 16px;
+    color: #0f6666;
+    text-align: center;
+    margin-top: 13px;
+    margin-right: 26px;
+}
+.news-tab .active{
+    color: #FFFFFF;
+    background: url("../../images/panda/active.png");
+}
+.news-main{
+
+    height: 150px;
+    overflow: hidden;
+}
+.news-main ul{
+    width: 480px;
+    height: 140px;
+    margin-top: 10px;
+}
+.news-main ul{
+    display: none;
+    transition: all 0.5s;
+}
+.news-main ul.select{
+    display: block;
+}
+.news-main li a span{
+    position: relative;
+    left: 30px;
+    line-height: 28px;
+    height: 28px;
+    font-size: 14px;
+    color: #0f6666;
+}
+.news-main li a em{
+    float: right;
+    height: 28px;
+    margin-right: 32px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #0f6666;
+}
+
+/*首页结束*/
+
+/*特色版块开始*/
+.feature{
+    position: relative;
+    height: 900px;
+}
+.feature .miku2{
+    width: 559px;
+    height: 893px;
+    position: absolute;
+    left: -205px;
+    top: 62px;
+    background: url("../../images/panda/miku2.png") no-repeat;
+
+}
+.feature .tip{
+    width: 848px;
+    height: 176px;
+    position: absolute;
+}
+.feature .tip1{
+    background: url("../../images/panda/f1.png") no-repeat;
+    left: 152px;
+    top: 68px;
+}
+.feature .tip2{
+    background: url("../../images/panda/f2.png") no-repeat;
+    left: 214px;
+    top: 208px;
+}
+.feature .tip3{
+    background: url("../../images/panda/f3.png") no-repeat;
+    left: 270px;
+    top: 352px;
+}
+.feature .tip4{
+    background: url("../../images/panda/f4.png") no-repeat;
+    left: 200px;
+    top: 497px;
+}
+.feature .tip5{
+    background: url("../../images/panda/f5.png") no-repeat;
+    left: 130px;
+    top: 640px;
+}
+/*特色版块结束*/
+
+/*原画版块开始*/
+.protopic{
+    position: relative;
+    height: 900px;
+}
+
+.pictitle{
+    width: 362px;
+    height: 143px;
+    margin: 0 auto;
+}
+.picbox{
+    width: 1400px;
+    height: 628px;
+    position: relative;
+    left: -115px;
+}
+.picbox .mikumiku{
+    width: 400px;
+    height: 587px;
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+.picbox .mikumiku .roll img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/*原画版块结束*/
+
+/*footer开始*/
+footer{
+    height: 145px;
+    position: relative;
+    margin-top:150px;
+    bottom: 50px;
+}
+.footer-top{
+    position: relative;
+}
+.footer-logo{
+    position: relative;
+    left: 20px;
+}
+.footer-top .links{
+    position: absolute;
+    left: 400px;
+}
+.footer-top .links a{
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "SimSun";
+    margin: 0 6px;
+}
+.footer-top .links .copy{
+    position: absolute;
+    left: 6px;
+    bottom: -28px;
+    font-family: "simsun";
+}
+
+.caution{
+    height: 82px;
+    position: relative;
+    left: 18px;
+    top: 14px;
+    font-family: "simsun";
+}
+.caution p{
+    margin: 12px 0;
+}
+.copy2{
+    font-family: "simsun";
+    position: relative;
+    left: 18px;
+    top: 8px;
+}
+/*footer结束*/
+
+/*广告部分*/
+.ad{
+    position: fixed;
+    left: 0px;
+    bottom: 100px;
+    z-index: 10;
+}
+.ad i{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0,191,255,0.2);
+    color: #fff;
+    font-size: 23px;
+    line-height: 23px;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    font-style: normal;
+    cursor: pointer;
+}
+.ad i:hover{
+    background-color: rgba(0,191,255,0.6);
+}
+/*电梯部分*/
+
+.sider{
+    width: 130px;
+    height: 600px;
+    position: fixed;
+    right: 10px;
+    top: 100px;
+}
+.connect{
+    position: absolute;
+    right: 50px;
+    background: url("../../images/panda/line.png") no-repeat;
+    width: 10px;
+    height: 76px;
+}
+.sider .line1{
+    top: 150px;
+}
+.sider .line2{
+    top: 396px;
+}
+.sider a{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    right: -16px;
+    transform: scale(0.8);
+    transition: all 1s;
+}
+.sider a i{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    right: 0px;
+    transform: scale(1);
+    transition: all 1s;
+}
+.sider .active{
+    transform: scale(1);
+    transition: all 1s;
+}
+.sider a.active i{
+    opacity: 0;
+    transform: scale(1);
+    transition: all 1s;
+}
+.sider a:nth-child(3){
+    top: 0px;
+    background: url("../../images/panda/shouye.png") no-repeat;
+}
+.sider a:nth-child(4){
+    top: 244px;
+    background: url("../../images/panda/tese.png") no-repeat;
+}
+.sider a:nth-child(5){
+    top: 500px;
+    background: url("../../images/panda/xinshang.png") no-repeat;
+}
+
+.sider a:nth-child(3) i{
+    background: url("../../images/panda/shouye2.png") no-repeat;
+}
+.sider a:nth-child(4) i{
+    background: url("../../images/panda/tese2.png") no-repeat;
+}
+.sider a:nth-child(5) i{
+    background: url("../../images/panda/xinshang2.png") no-repeat;
+}
+
+
+/*page翻页过渡动画*/
+
+.page .miku {
+    opacity: .01;
+    transform: translateX(-100px);
+    transition: all .5s .5s;
+
+}
+.page .miku.active1 {
+    opacity: 1;
+    transform: translate(400px,400px);
+    transition: all 1s 0s;
+}
+.page.active .miku {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 1s 0s;
+}
+
+.page .minislogan {
+    opacity: .01;
+    transform: translateX(100px);
+    transition: all .5s .5s;
+
+}
+
+.page.active .minislogan {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 1s 0s;
+}
+
+.page .slogan {
+    opacity: .01;
+    transform: translateY(50px);
+
+    transition: all .5s .5s;
+
+}
+
+.page.active .play,.page.active .slogan {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 1s .5s;
+}
+.play,.preplay,.minislogan{
+    cursor: pointer;
+}
+.page.active .play {
+    animation: zoominout .5s 3s infinite alternate
+}
+
+
+
+@keyframes zoominout {
+    to {
+        transform: scale(1.05);
+    }
+}
+
+.page .news {
+    opacity: .01;
+    transform: translateY(50px);
+
+    transition: all .5s .5s;
+
+}
+
+.page.active .news {
+    opacity: 1;
+    transform: translateY(0px);
+
+    transition: all 1.2s .7s;
+
+}
+.feature .miku2 {
+    opacity: .01;
+    transform: translateX(-100px);
+    transition: all .5s .5s;
+}
+.feature.active .miku2 {
+    opacity: 1;
+    transform: translateX(0px);
+
+    transition: all 1s 0s;
+
+}
+ .feature .tip {
+    opacity: .01;
+    transform: translateY(100px);
+
+    transition: all .5s .5s;
+
+}
+.feature.active .tip {
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+.feature.active .tip1 {
+    transition: all 1s 0s;
+
+}
+.feature.active .tip2 {
+    transition: all 1s .2s;
+
+}
+.feature.active .tip3 {
+    transition: all 1s .4s;
+
+}
+.feature.active .tip4 {
+    transition: all 1s .6s;
+
+}
+.feature.active .tip5 {
+    transition: all 1s .8s;
+
+}
+
+.protopic .picbox .mikumiku {
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 587px;
+    margin: 0;
+    perspective: 4000px;
+    transform-style: preserve-3d;
+}
+
+.protopic .picbox .mikumiku div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    perspective: 4000px;
+    transform-style: preserve-3d;
+    transition: all .2s;
+}
+
+.protopic .picbox .mikumiku img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0
+}
+.picbox .mikumiku img:first-child{
+    transition: all 1s;
+    z-index: 20;
+}
+.picbox .mikumiku.active img:first-child{
+    transform: rotateY(360deg) scale(1.2);
+}
+.picbox .mikumiku.active1 img:first-child{
+    transform: scale(1);
+}
+.protopic .pictitle {
+    opacity: .01;
+    transform: translateY(50px);
+    transition: all .5s .5s;
+}
+
+.protopic.active .pictitle {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 1s 0s;
+}
+
+.protopic .mikumiku {
+    opacity: .01;
+    transform: translateY(50px);
+    transition: all .5s .5s;
+}
+
+.protopic.active .mikumiku {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.protopic.active .mikumiku:nth-child(1) {
+    transition: all 1s .2s;
+}
+
+.protopic.active .mikumiku:nth-child(2) {
+    transition: all 1s .4s;
+}
+
+.protopic.active .mikumiku:nth-child(3) {
+    transition: all 1s .6s;
+}
+
+
+/*视频样式*/
+
+.vd{
+    display: none;
+    position: fixed;
+    z-index: 9999999;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.vd video{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -225px;
+    background: #000;
+    transition: all 0.5s;
+}
+.vd i{
+    display: block;
+    background-color: rgba(0,191,255,0.2);
+    color: #fff;
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 50%;
+    top: 50%;
+    margin-left: 410px;
+    margin-top: -225px;
+    font-style: normal;
+    cursor: pointer;
+}
+.mask.go{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:#000;
+    opacity:0.8;
+}
+
+
+/*弹出注册样式*/
+
+.reg{
+    width: 619px;
+    height: 610px;
+    background: url("../../images/panda/ios.png") 0 -50px;
+    position: absolute;
+    border: 1px solid #39ccbb;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /*display:none;*/
+}
+span.ios,span.and{
+    font-size: 26px;
+    width: 186px;
+    height: 66px;
+    position: absolute;
+    text-align: center;
+    line-height: 61px;
+    color: #7d7d7d;
+    cursor: pointer;
+    background: url("../../images/panda/unselect.png");
+}
+.ios{
+    left: 108px;
+    top: 54px;
+}
+.and{
+    left: 323px;
+    top: 54px;
+}
+#zgm,#phone{
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    top: 182px;
+    left: 176px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #01b199;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+}
+#phone{
+    top: 266px;
+}
+#yzm{
+    position: absolute;
+    width: 164px;
+    height: 40px;
+    top: 348px;
+    left: 119px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #01b199;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+}
+#hq{
+    position: absolute;
+    width: 211px;
+    height: 67px;
+    background: none;
+    top: 335px;
+    left: 320px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+#yy{
+    position: absolute;
+    width: 446px;
+    height: 67px;
+    top: 435px;
+    left: 87px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
